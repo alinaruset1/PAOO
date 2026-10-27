@@ -1,10 +1,8 @@
 cmake_minimum_required(VERSION 3.10)
 
-# Numele proiectului nostru
 set(myproject "CyberApp")
 project(${myproject})
 
-# Specify the required C++ standard
 if(CMAKE_VERSION GREATER "3.1.2") 
     set(CMAKE_CXX_STANDARD 14)
     set(CMAKE_CXX_STANDARD_REQUIRED ON)
@@ -15,7 +13,7 @@ else()
     endif()   
 endif()
 
-# II SPUNEM COMPILATORULUI UNDE SA CAUTE FISIERELE .hpp (Aici era problema!)
+# II SPUNEM COMPILATORULUI UNDE SA CAUTE FISIERELE .hpp 
 include_directories(include)
 
 # Setam fisierele librariei noastre
@@ -35,7 +33,7 @@ add_executable(${myproject} src/main.cpp)
 # Linkam libraria la executabil
 target_link_libraries(${myproject} PUBLIC lib)
 
-# Setam corect directoarele de include pentru executabil (din modelul tau)
+# Setam corect directoarele de include pentru executabil
 target_include_directories(${myproject} 
  PRIVATE src INTERFACE
     $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
