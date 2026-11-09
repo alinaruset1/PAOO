@@ -1,0 +1,3 @@
+/mnt/c/Users/Alina/Downloads/Proiect_Effective_Cpp_Flota/build/CMakeFiles/aplicatie_spatiu.dir
+/mnt/c/Users/Alina/Downloads/Proiect_Effective_Cpp_Flota/build/CMakeFiles/edit_cache.dir
+/mnt/c/Users/Alina/Downloads/Proiect_Effective_Cpp_Flota/build/CMakeFiles/rebuild_cache.dir

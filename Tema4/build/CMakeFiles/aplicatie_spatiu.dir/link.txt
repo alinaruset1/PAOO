@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/aplicatie_spatiu.dir/link.d CMakeFiles/aplicatie_spatiu.dir/src/main.cpp.o CMakeFiles/aplicatie_spatiu.dir/src/item4_initializare.cpp.o CMakeFiles/aplicatie_spatiu.dir/src/item5_functii_generate.cpp.o CMakeFiles/aplicatie_spatiu.dir/src/item6_interzicere.cpp.o -o aplicatie_spatiu
